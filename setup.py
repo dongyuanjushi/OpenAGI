@@ -9,6 +9,6 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name='pyopenagi',
-    version='0.0.2',
+    version='0.0.3',
     packages=find_packages()
 )
