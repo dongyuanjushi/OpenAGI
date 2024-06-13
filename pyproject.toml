@@ -31,8 +31,9 @@ Homepage = "https://github.com/agiresearch/OpenAGI"
 Repository = "https://github.com/agiresearch/OpenAGI.git"
 "Tools Docs" = "https://github.com/agiresearch/OpenAGI/tools.md"
 
+
 [tool.hatch.build]
-exclude = ["research/", "pyopenagi.egg-info/", "dist", "__pycache__/"]
+exclude = ["research/", "pyopenagi.egg-info/", "dist", "__pycache__/", ".pytest_cache/"]
 
 [tool.hatch.metadata.hooks.requirements_txt]
 files = ["requirements.txt"]
